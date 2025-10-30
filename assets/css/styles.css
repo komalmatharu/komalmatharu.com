@@ -470,7 +470,7 @@ img {
 }
 
 .skills__py{
-    width: 90%;
+    width: 80%;
 }
 
 .skills__pd{
@@ -478,11 +478,11 @@ img {
 }
 
 .skills__sql{
-    width: 80%;
+    width: 95%;
 }
 
 .skills__excel{
-    width: 95%;
+    width: 85%;
 }
 
 .skills__tb{
@@ -490,7 +490,7 @@ img {
 }
 
 .skills__bi{
-    width: 80%;
+    width: 70%;
 }
 
 .skills__gis{
@@ -650,7 +650,8 @@ body {
 
 #highschool,
 #tjcc,
-#colonial {
+#colonial,
+#pw {
     text-align: right;
 }
 
