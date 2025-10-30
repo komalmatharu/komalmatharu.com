@@ -730,6 +730,13 @@ body {
     content: '';
 }
 
+/* Hide default Swiper arrows so only your custom ones show */
+.swiper-button-next:not(.swiper-portfolio-next),
+.swiper-button-prev:not(.swiper-portfolio-prev) {
+  display: none !important;
+}
+
+
 .swiper-portfolio-icon {
     font-size: 2rem;
     color: var(--first-color);
