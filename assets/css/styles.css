@@ -598,6 +598,15 @@ body {
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
+/* Ensure active tab keeps dark color */
+.qualification__button.qualification__active,
+.qualification__button.qualification__active:hover {
+    background-color: var(--first-color);
+    color: #fff !important;
+    border-radius: 6px;
+    padding: 5px 15px;
+}
+
 
 .qualification__icon{
     font-size: 1.8rem;
