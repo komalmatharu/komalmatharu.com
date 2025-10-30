@@ -590,15 +590,6 @@ body {
     cursor: pointer;
 }
 
-/* When hovering over or activating a tab */
-.qualification__button:hover,
-.qualification__button.qualification__active {
-    background-color: var(--first-color); /* or your hover background color */
-    color: #fff; /* ensure text contrasts */
-    transition: background-color 0.3s ease, color 0.3s ease;
-}
-
-
 .qualification__icon{
     font-size: 1.8rem;
     margin-right: var(--mb-0-25);
